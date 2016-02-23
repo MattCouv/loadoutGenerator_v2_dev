@@ -9,7 +9,7 @@ var gulp  = require( "gulp" ),
 	browserSync = require( "browser-sync" ).create();;
 
 gulp.task( "css", function() {
-  return gulp.src( "./public/assets/css/*.css" )
+  return gulp.src( "./public/css/*.css" )
     .pipe( autoprefixer( [ "last 15 versions", "> 1%", "ie 8", "ie 7" ], { cascade: true } ) )
     .pipe( browserSync.stream() );
 } );
@@ -17,7 +17,7 @@ gulp.task( "css", function() {
 gulp.task( "js", function() {
 
   // Gulp tasks
-	return gulp.src( "./public/assets/js/*.js" );
+	return gulp.src( "./public/js/*.js" );
 } );
 
 // Create a task that ensures the `js` task is complete before
@@ -34,8 +34,8 @@ gulp.task( "serve", function() {
         open: true,
         notify: false
     } );
-    gulp.watch( "./public/assets/js/*.js", browserSync.reload );
-    gulp.watch( "./public/assets/css/*.css", [ "css" ] );
+    gulp.watch( "./public/js/*.js", browserSync.reload );
+    gulp.watch( "./public/css/*.css", [ "css" ] );
 } );
 
 gulp.task( "default", [ "serve" ] );
