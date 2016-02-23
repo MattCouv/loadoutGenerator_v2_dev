@@ -1,7 +1,7 @@
 <?php
 namespace Core\Controller;
 /**
-* 
+*
 */
 class Controller{
 
@@ -22,7 +22,7 @@ class Controller{
 			ob_start();
 			extract($variables);
 			require($this->viewPath . $view . '.php');
-			$content = $ob_get_clean();
+			$content = ob_get_clean();
 			require($this->viewPath . 'templates/' . $this->template . '.php');
 		}
 	}
