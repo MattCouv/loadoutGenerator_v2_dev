@@ -1,0 +1,22 @@
+{
+  "name": "loadoutGenerator_v2_dev",
+  "homepage": "https://github.com/MattCouv/loadoutGenerator_v2_dev",
+  "authors": [
+    "MattCouv <matth.couvreur@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true,
+  "dependencies": {
+    "jquery": "^2.2.1"
+  }
+}
