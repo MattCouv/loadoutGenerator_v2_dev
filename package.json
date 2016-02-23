@@ -1,0 +1,31 @@
+{
+  "name": "loadoutgenerator_v2_dev",
+  "version": "1.0.0",
+  "description": "\u0000",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "browser-sync": "^2.11.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.1",
+    "gulp-uglify": "^1.5.1",
+    "gulp-watch": "^4.3.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattCouv/loadoutGenerator_v2_dev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MattCouv/loadoutGenerator_v2_dev/issues"
+  },
+  "homepage": "https://github.com/MattCouv/loadoutGenerator_v2_dev#readme"
+}
